@@ -16,7 +16,11 @@
     "url": "https://github.com/lebleu29/Athabasca/issues"
   },
   "homepage": "https://github.com/lebleu29/Athabasca#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
   "devDependencies": {
     "node-sass": "^4.14.1"
   }
