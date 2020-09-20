@@ -1,0 +1,23 @@
+{
+  "name": "athabasca",
+  "version": "1.0.0",
+  "description": "interview mockup site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebleu29/Athabasca.git"
+  },
+  "author": "Mark Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebleu29/Athabasca/issues"
+  },
+  "homepage": "https://github.com/lebleu29/Athabasca#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
