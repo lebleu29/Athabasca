@@ -16,8 +16,10 @@
   "homepage": "https://github.com/lebleu29/Athabasca#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "glob": "^7.1.6",
     "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "viewport-checker": "^2.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",

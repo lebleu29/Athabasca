@@ -10,9 +10,9 @@ return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'
 .pipe(browserSync.stream());
 });
 
-// Move the javascript files into our /src/js folder
+// Move the javascript files into /src/js folder
 gulp.task('js', function() {
-return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js'])
+return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js', 'node_modules/viewport-checker/dist/viewportChecker.umd.js'])
 .pipe(gulp.dest("src/js"))
 .pipe(browserSync.stream());
 });
