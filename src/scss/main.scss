@@ -561,6 +561,15 @@ footer {
                     background-color: #9daf00;
                     color: $white;
                 }
+
+                &.github {
+                    background-color: #000;
+
+                    a {
+                        color: $white;
+                    }
+
+                }
             }
 
             &.social-icons li + li {

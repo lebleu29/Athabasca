@@ -376,6 +376,10 @@ footer {
         footer .footer-inner ul.social-icons li.linkedin {
           background-color: #9daf00;
           color: #ffffff; }
+        footer .footer-inner ul.social-icons li.github {
+          background-color: #000; }
+          footer .footer-inner ul.social-icons li.github a {
+            color: #ffffff; }
       footer .footer-inner ul.social-icons li + li {
         margin-left: 1rem; }
     footer .footer-inner .col-sm + .col-sm {
