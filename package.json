@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "interview mockup site",
   "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lebleu29/Athabasca.git"
@@ -22,6 +20,8 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
   }
 }
