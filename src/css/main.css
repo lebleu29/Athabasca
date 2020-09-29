@@ -545,6 +545,8 @@ footer {
           background-color: #edeff5;
           border-bottom: 6px solid #1B365D;
           color: #39414e; }
+        .quicklinks div#scroll-icons a.list-group-item + .list-group-item.active {
+          margin-top: 0; }
   .scroll-content-container {
     position: relative; }
   .designed-for .designed-for-text-container h1 {

@@ -903,6 +903,10 @@ footer {
                     border-bottom: 6px solid $blue;
                     color: $darkgrey;
                 }
+
+                &.list-group-item + .list-group-item.active {
+                    margin-top: 0;
+                }
             }
 
         }
